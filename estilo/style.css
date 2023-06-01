@@ -1,70 +1,83 @@
-@charset 'utf-8';
-* {
-  margin: 0px;
-  padding: 0px;
-}
+    @charset 'utf-8';
+    @import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+    :root {
+      --fonte1: verdana, Geneva, tahoma, sans-serif;
+      --fonte2: "Passion One", cursive;
+      --fonte3: "Sriracha", cursive;
+    }
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-size: 1em;
+    }
 
-html,
-body {
-  min-height: 100vh;
-  background-color: darkgrey;
-}
+    html,
+    body {
+      min-height: 100vh;
+      background-color: darkgrey;
+      font-family: var(--fonte1);
+    }
 
-header {
-  background-color: black;
-  color: white;
-  text-align: center;
-}
+    header {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
 
-header > h1 {
-  padding-top: 50px;
-  font-variant: small-caps;
+    header > h1 {
+      padding-top: 50px;
+      font-variant: small-caps;
+      font-family: var(--fonte2);
+      font-size: 10vw;
 
-  /*text-transform: uppercase; DEIXA A LETRA maiúscula TAMBÉM*/
-}
+      /*text-transform: uppercase; DEIXA A LETRA maiúscula TAMBÉM*/
+    }
 
-header p {
-  padding-bottom: 50px;
-}
+    header p {
+      padding-bottom: 50px;
+    }
 
-header a,
-footer a {
-  color: white;
-  text-decoration: none;
-  font-weight: bolder;
-}
+    header a,
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: bolder;
+    }
 
-header a:hover,
-footer a:hover {
-  text-decoration: underline;
-}
+    header a:hover,
+    footer a:hover {
+      text-decoration: underline;
+    }
 
-section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
-}
+    section {
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+      line-height: 2em;
+      padding-left: 30px;
+      font-family: var(--fonte3);
+      font-size: 3.5vw;
+    }
 
-section.normal {
-  background-color: white;
-  color: black;
-}
+    section.normal {
+      background-color: white;
+      color: black;
+    }
 
-section.imagem {
-    background-color:darkgrey;
-    color: white;
-}
+    section.imagem {
+      background-color: darkgrey;
+      color: white;
+    }
 
-section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.384);
-    width: 400px;
-    
-}
+    section.imagem > p {
+      background-color: rgba(0, 0, 0, 0.384);
+      display: inline-block;
+      padding: 5px;
+    }
 
-footer {
-  background-color: black;
-  text-align: center;
-  color: white;
-  padding: 10px;
-}
+    footer {
+      background-color: black;
+      text-align: center;
+      color: white;
+      padding: 10px;
+    }
