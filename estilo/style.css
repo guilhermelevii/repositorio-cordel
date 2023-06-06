@@ -73,6 +73,19 @@
       background-color: rgba(0, 0, 0, 0.384);
       display: inline-block;
       padding: 5px;
+     
+    }
+    #imagem1{
+      background-image: url(../imagens/background001.jpg);
+      background-position: center center;
+      background-attachment: fixed;
+      
+    }
+
+    #imagem2{
+      background-image: url(../imagens/background002.jpg);
+      background-position: center center;
+      background-attachment: fixed;
     }
 
     footer {
